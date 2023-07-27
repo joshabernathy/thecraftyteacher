@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Fuzzy Bubbles', cursive;
+    /*background-color: hsla(316, 95%, 85%, 0.817);*/
+    background-image: url(luke-besley-Mdz-EpieP3A-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5px;
+    padding: .4em;
+    border-radius: 4px;
+}
+
+#headline{
+    color: hsla(0, 0%, 0%, 0.9);
+    /*background-color: hsla(0, 0%, 100%, 0.817);
+    border: 2px solid hsla(0, 0%, 0%, 0.598);*/
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: baseline;
+    font-weight: bold;
+    position: relative;
+    font-size: 10em;
+    margin: 0px;
+}
+
+.container{
+    /*background-color: hsla(316, 95%, 85%, 0.817);*/
+    min-width: min-content;
+    min-height: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: center;    
+}
+
+.pens {
+    position: relative;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url(DE2F002A-2C26-409B-8ED1-EEEA24CDF15B.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+  }
+  
+  .pens svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .pens:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #5b1e7e;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .pens:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 48px;
+    color: #000000;
+    font-weight: 700;
+  }
+  
+  .pens:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 28px;
+    color: #05d1cb;
+    line-height: 1.4;
+  }
+
+  .cardbutton{
+    padding: 15px;
+    border-radius: 8px;
+    background: #6859b8;
+    border: none;
+    color: white;
+  }
+
+  .cups {
+    position: relative;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url(IMG_6567.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 500px;
+    background-position: center;
+  }
+  
+  .cups svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .cups:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .cups:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .cups:hover svg {
+    scale: 0;
+  }
+
+  .shirts {
+    position: relative;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url(IMG_6471.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-position: center; 
+  }
+  
+  .shirts svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .shirts:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .shirts:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .shirts:hover svg {
+    scale: 0;
+  }
+
+  .gallery {
+    position: relative;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url(D61CE7C5-E7A6-4C2C-B2FF-F11AED8F7209.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px; 
+  }
+  
+  .gallery svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .gallery:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .gallery:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .gallery:hover svg {
+    scale: 0;
+  }
+
+  .aboutme {
+    position: relative;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-image: url(image11.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px; 
+  }
+  
+  .aboutme svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .aboutme:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .aboutme:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .aboutme:hover svg {
+    scale: 0;
+  }
+
+  footer{
+    background-color: hsla(0, 0%, 100%, 0.817);
+  }
+  
+
+
+
