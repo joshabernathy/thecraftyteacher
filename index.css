@@ -247,7 +247,7 @@ html{
     perspective: 1000px;
     box-shadow: 0 0 0 5px #ffffff80;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    background-image: url(image11.jpeg);
+    background-image: url(img_me.gif);
     background-repeat: no-repeat;
     background-size: 600px 400px; 
   }
